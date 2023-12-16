@@ -1,0 +1,15 @@
+{
+  "name": "learning_git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "node index.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.15.0"
+  }
+}
