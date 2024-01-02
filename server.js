@@ -8,7 +8,7 @@ const server = http.createServer(async (req, res) => {
   res.setHeader("Content-Type", "application/json");
   const searchParams = new URLSearchParams(req.url.split("/")[1]);
   const number = searchParams.get("number");
-  console.log("confi");
+  console.log("conflict");
   if (number) {
     const predicted = await predict(Number(number));
     res.statusCode = 200;
