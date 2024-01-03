@@ -18,6 +18,7 @@ const server = http.createServer(async (req, res) => {
     res.statusCode = 400;
     res.end('{"error":"Invalid number"}');
   }
+  console.log("add");
 });
 
 server.listen(port, () => {
