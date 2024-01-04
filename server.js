@@ -1,8 +1,7 @@
 import http from "http";
 import predict from "./predict.js";
 
-const port = 6666;
-const hostname = "127.0.0.1";
+const port = 3000;
 
 const server = http.createServer(async (req, res) => {
   res.setHeader("Content-Type", "application/json");
