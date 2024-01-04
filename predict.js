@@ -9,7 +9,7 @@ export default async function predict(test) {
   const xs = tf.tensor2d([1, 2, 3, 4], [4, 1]);
   const ys = tf.tensor2d([1, 3, 5, 7], [4, 1]);
 
-  await model.fit(xs, ys, { epochs: 20 });
+  await model.fit(xs, ys, { epochs: 40 });
   const output = model.predict(tf.tensor2d([test], [1, 1]));
   return output.dataSync()[0];
 }
